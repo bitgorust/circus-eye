@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/kingnez/Projects/CircusTrainer/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/kingnez/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kingnez/Projects/CircusTrainer/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"libopencv_java3-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_java3",
+			"buildType" : "release",
+			"output" : "/Users/kingnez/Projects/CircusTrainer/app/src/main/jniLibs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "6864260824092554475"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/kingnez/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kingnez/Projects/CircusTrainer/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/kingnez/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kingnez/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/kingnez/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/kingnez/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/kingnez/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/kingnez/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/kingnez/Projects/CircusTrainer/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/kingnez/Projects/CircusTrainer/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/kingnez/Projects/CircusTrainer/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "6864260824092554475"
+		}
+	},
+	"toolchains" : 
+	{
+		"6864260824092554475" : 
+		{
+			"cCompilerExecutable" : "/Users/kingnez/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kingnez/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
